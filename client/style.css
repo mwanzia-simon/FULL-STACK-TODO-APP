@@ -1,5 +1,28 @@
 h1 {
-    color :blueviolet;
-    text-align : center;
-    
+  color: blueviolet;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  background-color: orchid;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.add-todo-inputs {
+    padding: 10px;
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#add-todo-input{
+    outline: none;
+    border: none;
+    /* background-color: transparent; */
+    flex: 1;
 }
